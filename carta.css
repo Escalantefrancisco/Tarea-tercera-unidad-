@@ -1,34 +1,30 @@
-.title {
-  width: 170px;
-  height: 140;
-  margin: 5px
-  padding:20px;
-  background-color: magenta;
-  float: left;
-}
-body{
+*{
     background-color: #D88E29;
  
   }
 
+body{   
+   background-color: ;
+ padding: 15px 15px 15px 15px; 
+}
 
 #box{
     background-color:  ;
-    padding:20px;
+    padding:0px;
    
 }
  
 h2{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding-top: 20px;
-    text-align: center;
+    text-align: center; 
     background-color: #f2f2f2;
 }
 
 #highlight {
     background-color: maroon;
-    border: 4px solid black;
-    font-size:30px;
+    border: 5px solid black;
+    font-size:24px;
     font-weight: bold;
     font-color:black;
     font-style: normal;
@@ -37,8 +33,8 @@ h2{
 }
 #highlight2 {
     background-color: violet;
-    border: 4px solid black;
-    font-size:30px;
+    border: 5px solid black;
+    font-size:24px;
     font-weight: bold;
     font-color:black;
     font-style: normal;
@@ -49,31 +45,31 @@ h2{
 #highlight3 {
      
     background-color: yellow;
-    border: 4px solid black;
-    font-size:30px;
+    border: 5px solid black;
+    font-size:24px;
     font-weight: bold;
     font-color:black;
     font-style: normal;
     float: right;
-    padding: 10px 30px 10px 30px;
+    padding:5px 30px 5px 30px;
 }
 #highlight4 {
      
     background-color:#46B634;
-    border: 4px solid black;
-    font-size:30px;
+    border: 5px solid black;
+    font-size:24px;
     font-weight: bold;
     font-color:black;
     font-style: normal;
     float: right;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 5px 10px 30px;
 }
 
  
 
 #p1 {
-    padding: 60px 20px 10px 30px;
-    border: 3px solid;
+    padding: 60px 20px 10px 20px;
+    border: 2px solid;
     font-size:18px;
     background-color:gold;
     color:black;
@@ -83,7 +79,7 @@ h2{
 
 #p2 {
      padding: 60px 20px 10px 30px;
-    border: 3px solid;
+    border: 5px solid;
     font-size:18px;
     background-color:green;
     color:black;
@@ -93,16 +89,17 @@ h2{
 
 #p3 {
     padding: 60px 20px 10px 30px;
-    border: 3px solid;
+    border: 5px solid;
     font-size:18px;
     background-color:pink;
     color:black;
     font-weight: bold;
     font-style: italic;
    }
-   #p4 {
+
+#p4 {
     padding: 60px 20px 10px 30px;
-    border: 3px solid;
+    border: 5px solid;
     font-size:18px;
     background-color:#37C09D;
     color:black;
@@ -123,19 +120,19 @@ h2{
   width: 8.33%;
 }
 .col2{
-  width: 20.66%;
+  width: 16.66%;
 }
 .col3{
   width: 25%;
 }
 .col4{
-  width: 85%;
+  width: 25%;
 }
 .col5{
   width: 41.66%;
 }
 .col6{
-  width: 70%;
+  width: 50%;
 }
 .col7{
   width: 58.33%;
@@ -172,13 +169,13 @@ h2{
   width: 33.33%;
 }
 .coli4{
-  width: 85%;
+  width: 33.33%;
 }
 .coli5{
   width: 41.66%;
 }
 .coli6{
-  width: 95%;
+  width: 50%;
 }
 .coli7{
   width: 58.33%;
@@ -215,13 +212,13 @@ h2{
   width: 100%;
 }
 .colp4{
-  width: 85%;
+  width: 33.33%;
 }
 .colp5{
-  width: 41.66%;
+  width:  41.66%;
 }
 .colp6{
-  width: 95%;
+  width: 50%;
 }
 .colp7{
   width: 58.33%;
