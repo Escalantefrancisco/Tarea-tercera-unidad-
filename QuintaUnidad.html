@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://scontent.fgua3-2.fna.fbcdn.net/v/t1.15752-9/120853324_1213703815663621_137744054630220473_n.png?_nc_cat=107&_nc_sid=ae9488&_nc_ohc=YOrishfYMJwAX9WB-bL&_nc_oc=AQltzVn34ZjRu0tNjEkIhy7Egc3L26psOL5XjuVT-S4C8DU3MS5JgE3mPdY-EBqjyGU&_nc_ht=scontent.fgua3-2.fna&oh=99b36def18fe42b27bd2cfea0af9a04a&oe=5FA56F41">
+	<title> validar contraseña</title>
+	<link rel="icon" type="image/png" href="https://scontent.fgua3-2.fna.fbcdn.net/v/t1.15752-9/120853324_1213703815663621_137744054630220473_n.png?_nc_cat=107&_nc_sid=ae9488&_nc_ohc=YOrishfYMJwAX9WB-bL&_nc_oc=AQltzVn34ZjRu0tNjEkIhy7Egc3L26psOL5XjuVT-S4C8DU3MS5JgE3mPdY-EBqjyGU&_nc_ht=scontent.fgua3-2.fna&oh=99b36def18fe42b27bd2cfea0af9a04a&oe=5FA56F41" />
+	<link rel="stylesheet" type="text/css" href="css/elcss.css" />
+	<script>
+		function comprobarClave(){
+			clave1 = document.f1.clave1.value
+			clave2 = document.f1.clave2.value
+
+			if (clave1 == "Francisco" && clave2 == "EA"){
+			alert("los datos coinciden...\n Pase adelante.");
+			var href ="index3.html";
+			window.location=href;
+    }
+
+    else{ 
+    	alert("las dos claves son distintas...\n intente nuevamente.");
+    	var href = "index1.html";
+    	window.location=href;
+    };
+
+  }
+</script>
+</head>
+
+<body bgcolor="#66CDAA">
+
+<center>
+	<a href="">
+	<img src="https://scontent.fgua3-2.fna.fbcdn.net/v/t1.15752-9/120853324_1213703815663621_137744054630220473_n.png?_nc_cat=107&_nc_sid=ae9488&_nc_ohc=YOrishfYMJwAX9WB-bL&_nc_oc=AQltzVn34ZjRu0tNjEkIhy7Egc3L26psOL5XjuVT-S4C8DU3MS5JgE3mPdY-EBqjyGU&_nc_ht=scontent.fgua3-2.fna&oh=99b36def18fe42b27bd2cfea0af9a04a&oe=5FA56F41" align="cenetr" width="90" height="90"></a><h1><b><u>Repuestos</u> <br><br> <u>EA</u></b></h1>
+	</center>
+</center>
+
+
+	<center><p>Usuario: Francisco<br> clave:EA </p></center>
+	<article id="grt">
+   	<center><h1> VALIDAR SOLO SI EL USUARIO Y CONTRASEÑA COINCIDEN</h1></center>
+	<center><br>
+	escribe una supuesta contraseña dos veces una en cada campo, y pulsa el boton. JavaScript te dira si las dos son iguales.</center>  
+</article>
+</section>
+</nav>
+
+	<br>
+	<form action="" name="f1" style="text-align: center;text-indent: unset; ">
+		USUARIO:<br> <input type="password" name ="clave1" size="20">
+		<br>
+		PON TU CLAVE: <br> <input type="password" name ="clave2" size="20">
+		<br>
+		<input type="button" value=" Verificar si son iguales "  onclick="comprobarClave()  " >
+
+	</form>
+
+</article>
+</section>
+</center>    
+
+ </body>
+ </html>
